@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
+  <link rel = "stylessheet" href="stylessheet.css"></link>
 </head>
 <body>
     <!--Used this.value as a object place holder-->
@@ -13,7 +14,12 @@
     <option value = "green">green</option>
     <option value = "black">black</option>
     <option value = "purple">purple</option>
- 
-  </select>
+ </select>
+ <script>
+    /* using DOM manipulation to set background color to value */
+     function switchColor(value){
+  document.body.style.backgroundColor = value;
+     }
+ </script>
 </body>
 </html>
